@@ -11,5 +11,9 @@
         "Dart-Code.flutter"
       ]
     }
+  },
+  "runArgs": ["--device=/dev/net/tun"],
+  "features": {
+    "ghcr.io/tailscale/codespace/tailscale": {}
   }
 }
