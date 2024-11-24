@@ -14,6 +14,9 @@
   },
   "runArgs": ["--device=/dev/net/tun"],
   "features": {
-    "ghcr.io/tailscale/codespace/tailscale": {}
+    "ghcr.io/tailscale/codespace/tailscale": {},
+    "ghcr.io/akhildevelops/devcontainer-features/android-cli:latest": {
+        "PACKAGES": "platform-tools,platforms;android-33,build-tools;33.0.2"
+    }
   }
 }
